@@ -5,6 +5,7 @@ import dev.kelvin.store.game.Game;
 import jakarta.persistence.Entity;
 import jakarta.persistence.OneToMany;
 import lombok.*;
+import lombok.experimental.SuperBuilder;
 
 import java.util.List;
 
@@ -13,6 +14,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
+@SuperBuilder
 public class Category extends BaseEntity {
 
     private String name;

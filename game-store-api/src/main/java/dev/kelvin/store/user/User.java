@@ -1,7 +1,7 @@
 package dev.kelvin.store.user;
 
 import dev.kelvin.store.common.BaseEntity;
-import dev.kelvin.store.gamerequest.GameRequest;
+import dev.kelvin.store.game.GameRequest;
 import dev.kelvin.store.notification.Notification;
 import dev.kelvin.store.wishlist.Wishlist;
 import jakarta.persistence.Entity;
